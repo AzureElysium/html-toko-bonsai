@@ -1,0 +1,94 @@
+<html>
+<head>
+	<title>Bonesia - Transaction</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="StyleCSS.css">
+	<link rel="icon" type="image/png" href="Icon/Bonsai.png">
+</head>
+<body background="Gambar/body_bg.jpg">
+	<div class="header">
+		<h1>Toko Online Bonsai Indonesia</h1>
+	</div>
+
+	<div class="topnav center">
+		<ul>
+			<li><a href="Home.html">Home</a></li>
+			<li><a href="List.html">List Product</a></li>
+			<li><a href="Transaction.html" style="color: black; background-color: #ddd; border-radius: 25px;">Transaction</a></li>
+			<li><a href="Benefit.html">Benefit Bonsai</a></li>
+			<li><a href="Profile.html">Profile</a></li>
+			<li><a href="Contact.html">Contact</a></li>
+			<li><a href="Article.html">Article Font</a></li>
+		</ul>
+	</div>
+
+	<div class="row">
+		<div class="column side">
+			<table class="left">
+				<td>
+					<font face="Cambria Math" size="4">
+						Now Playing :<br>
+						<img src="Icon/Music.png"><br>
+						"Hymn for The Weekend"<br>
+						<audio src="Audio/Hymn for the Weekend.mp3" hidden autoplay loop></audio>
+					</font>
+				</td>
+			</table>
+		</div>
+
+		<div class="column middle">
+			<div class="card" style="margin-bottom: 13%; margin-top: 13%; width: 52%; height: 52%; margin-left: auto; margin-right: auto;">
+				<center>
+					<form action="" method="POST">
+						<table style="font-family: Cambria Math; font-size: 18px;">
+							<tr>
+								<td>Nama Anda</td><td>: <input type="text" name="nama"></td>
+							</tr>
+							<tr>
+								<td>Nomor KTP</td><td>: <input type="text" name="ktp"></td>
+							</tr>
+							<tr>
+								<td>Jenis Kelamin</td><td>: <input type="radio" name="jk" value="lak">Laki - laki</td>
+							</tr>
+							<tr>
+								<td>&nbsp;</td><td>&nbsp;&nbsp;<input type="radio" name="jk" value="per">Perempuan</td>
+							</tr>
+							<tr>
+								<td>Nomor Telepon</td><td>: <input type="text" name="nt"></td>
+							</tr>
+							<tr>
+								<td>Alamat</td><td>: <input type="text" name="alamat"></td>
+							</tr>
+							<tr>
+								<td>Pilih Bonsai</td>
+								<td>: 
+									<select name="bonsai">
+										<option>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-- Bonsai --&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option>
+										<option>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rempelas&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option>
+										<option>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Anting Putri&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option>
+										<option>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Asem Jawa&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option>
+										<option>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Asem Londo&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option>
+										<option>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Loa&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option>
+									</select>
+								</td>
+							</tr>
+							<tr>
+								<td>&nbsp;</td><td>&nbsp;&nbsp;<input type="submit" value="Kirim" onclick="alert('Terima Kasih telah memesan :)')"></td>
+							</tr>
+						</table>
+					</form>
+				</center>
+			</div>
+		</div>
+
+		<div class="column side">
+			<img class="picture saturate" src="Gambar/tree.jpg">
+		</div>
+	</div>
+
+	<div class="footer">
+		<p>2018 © Copyright. All Rights Reserved | Designed by Rendy Perdana</p>
+	</div>
+</body>
+</html>

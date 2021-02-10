@@ -1,0 +1,141 @@
+<html>
+<head>
+	<title>Bonesia - Article of Font</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="StyleCSS.css">
+	<link rel="icon" type="image/png" href="Icon/Bonsai.png">
+	<script type="text/javascript">
+		function font1() {
+			var x = document.getElementById("num1");
+			x.style.fontFamily="Lucida Bright";
+			x.style.color="red";
+			x.style.fontSize="20px";
+		}
+
+		function font2() {
+			var x = document.getElementById("num2");
+			x.style.fontFamily="Comic Sans MS";
+			x.style.color="red";
+			x.style.fontSize="20px";
+		}
+
+		function font3() {
+			var x = document.getElementById("num3");
+			x.style.fontFamily="Courier New";
+			x.style.color="red";
+			x.style.fontSize="20px";
+		}
+	</script>
+</head>
+<body background="Gambar/body_bg.jpg">
+	<div class="header">
+		<h1>Toko Online Bonsai Indonesia</h1>
+	</div>
+
+	<div class="topnav center">
+		<ul>
+			<li><a href="Home.html">Home</a></li>
+			<li><a href="List.html">List Product</a></li>
+			<li><a href="Transaction.html">Transaction</a></li>
+			<li><a href="Benefit.html">Benefit Bonsai</a></li>
+			<li><a href="Profile.html">Profile</a></li>
+			<li><a href="Contact.html">Contact</a></li>
+			<li><a href="Article.html" style="color: black; background-color: #ddd; border-radius: 25px;">Article Font</a></li>
+		</ul>
+	</div>
+
+	<div class="row">
+		<div class="column side">
+			<table class="left">
+				<td>
+					<font face="Cambria Math" size="4">
+						Now Playing :<br>
+						<img src="Icon/Music.png"><br>
+						"Hymn for The Weekend"<br>
+						<audio src="Audio/Hymn for the Weekend.mp3" hidden autoplay loop></audio>
+					</font>
+				</td>
+			</table>
+		</div>
+
+		<div class="column middle">
+			<div class="card" id="serif">
+				<font face="Cambria Math" size="6"><b>1. Serif</b></font>
+				<br>
+				<br>
+				<div class="image">
+					<a target="_blank" href="Gambar/font1.jpg">
+					  <img src="Gambar/font1.jpg" alt="Serif" style="width:300px">
+					</a>
+				</div>
+				<br>
+				<font face="Cambria Math" size="4">
+					<p style="text-align: justify; text-indent: 0.5in;">Jenis font ini merupakan jenis font yang mempunyai garis kecil di setiap akhir huruf. Contohnya seperti <i>Times New Roman</i>, <i>Georgia</i>. Berikut contoh font Serif (Lucida Bright) :</p>
+					<button type="button" onclick="font1()" name="button1">Click Here</button>
+					<br>
+					<br>
+					<font id="num1">Lorem ipsum dolor sit amet</font>
+				</font>
+			</div>
+			<br>
+			<div class="card" id="sanserif">
+				<font face="Cambria Math" size="6"><b>2. San-Serif</b></font>
+				<br>
+				<br>
+				<div class="image">
+					<a target="_blank" href="Gambar/font2.jpg">
+					  <img src="Gambar/font2.jpg" alt="San-Serif" style="width:300px">
+					</a>
+				</div>
+				<br>
+				<font face="Cambria Math" size="4">
+					<p style="text-align: justify; text-indent: 0.5in;">Font San-Serif ini kebalikan dari font Serif. "San" itu artinya "tanpa". Jika Serif pada setiap akhir huruf terdapat garis kecil. San-Serif tidak memiliki garis kecil. Contohnya seperti <i>Arial</i>, <i>Comic Sans MS</i>, <i>Tahoma</i>, <i>Verdana</i>. Berikut contoh font San-Serif (Comic Sans MS) :</p>
+					<button type="button" onclick="font2()" name="button2">Click Here</button>
+					<br>
+					<br>
+					<font id="num2">Lorem ipsum dolor sit amet</font>
+				</font>
+			</div>
+			<br>
+			<div class="card" id="monospace">
+				<font face="Cambria Math" size="6"><b>3. Monospace</b></font>
+				<br>
+				<br>
+				<div class="image">
+					<a target="_blank" href="Gambar/font3.jpg">
+					  <img src="Gambar/font3.jpg" alt="Monospace" style="width:300px">
+					</a>
+				</div>
+				<br>
+				<font face="Cambria Math" size="4">
+					<p style="text-align: justify; text-indent: 0.5in;">Dari namanya saja sudah jelas. "Space" yang berarti spasi. Jenis font ini memiliki spasi yang cukup besar dari setiap hurufnya. Terlihat dari jarak per huruf. Dan juga memiliki kesamaan ukuran. Contohnya seperti <i>Courier New</i>. Berikut contoh font Monospace (Courier New) :</p>
+					<button type="button" onclick="font3()" name="button3">Click Here</button>
+					<br>
+					<br>
+					<font id="num3">Lorem ipsum dolor sit amet</font>
+				</font>
+			</div>
+			<br>
+			<br>
+		</div>
+
+		<div class="column side">
+			<table class="right">
+				<td>
+					<font face="Cambria Math" size="4">
+						List Font for this Article : <br>
+						<a href="#serif">1. Serif</a><br>
+						<a href="#sanserif">2. San-Serif</a><br>
+						<a href="#monospace">3. Monospace</a><br>
+					</font>
+				</td>
+			</table>
+		</div>
+	</div>
+
+	<div class="footer">
+		<p>2018 © Copyright. All Rights Reserved | Designed by Rendy Perdana</p>
+	</div>
+</body>
+</html>
